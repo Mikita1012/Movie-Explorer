@@ -11,7 +11,7 @@ interface MovieCardProps {
 const MovieCard: React.FC<MovieCardProps> = ({ title, year, poster, onClick }) => {
     return (
     <div className='movie-card' onClick={onClick}>
-        <img src={poster} alt={title} />
+        <img src={poster} alt={title} className='image-class'/>
         <h3>{title} ({year})</h3>
     </div>
     )

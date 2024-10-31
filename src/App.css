@@ -18,11 +18,14 @@ button {
   background-color: #007bff;
 }
 
+.image-class {
+ width: 200px;
+}
 .movie-container {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
-  justify-content: center;
+  justify-content: space-evenly;
   margin-top: 1rem;
 }
 
@@ -30,7 +33,7 @@ button {
   border: 1px solid #ccc;
   padding: 1rem;
   border-radius: 8px;
-  width: 150px;
+  width: 250px;
   cursor: pointer;
 }
 

@@ -18,7 +18,7 @@ function App() {
   const handleSearch = async () => {
     setError(null);
     try {
-      const response = await axios.get(`https://www.omdbapi.com/?i=tt3896198&apikey=c7c651f6&s=${query}`);
+      const response = await axios.get(`https://www.omdbapi.com/?apikey=c7c651f6&s=${query}`);
       if (response.data.Search) {
         setSearchResults(response.data.Search);
         setSelectedMovie(null);
